@@ -41,6 +41,7 @@ public class TravelInfoViewerMenu {
                 System.out.println("금액: " + resultSet.getString("Amount"));
                 System.out.println("------------");
             }
+            
         } catch (SQLException e) {
             e.printStackTrace();
         }
