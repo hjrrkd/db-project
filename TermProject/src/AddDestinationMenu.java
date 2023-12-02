@@ -1,5 +1,5 @@
 // 3번메뉴: 여행 일정에 여행지 추가
-// 사용자로부터 여행지 정보(지역, 도시, 관광명소, 숙소)를 입력받아 여행지 테이블에 새로운 레코드를 추가
+// 사용자로부터 여행지 정보(지역, 도시, 관광명소, 숙소)를 입력받아 Destination 테이블에 새로운 레코드를 추가
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
