@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class AddDestinationMenu {
 
     public static void handleAddDestinationMenu(Connection connection) {
-        System.out.println("3번 메뉴를 선택하셨습니다.");
+        System.out.println("여행지 추가 메뉴를 선택하셨습니다.");
 
         Scanner scanner = new Scanner(System.in);
 

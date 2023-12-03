@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class TravelScheduleMenu {
 
     public static void handleTravelScheduleMenu(Connection connection) {
-        System.out.println("2번 메뉴를 선택하셨습니다.");
+        System.out.println("여행 일정 조회 및 수정 메뉴를 선택하셨습니다.");
 
         Scanner scanner = new Scanner(System.in);
 

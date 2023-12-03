@@ -57,11 +57,14 @@ public class ReservationMenu {
 
                 if (rowsAffected > 0) {
                     System.out.println("숙소 예약이 성공적으로 완료되었습니다.");
+                    System.out.println("------------");
                 } else {
                     System.out.println("숙소 예약에 실패했습니다.");
+                    System.out.println("------------");
                 }
             } else {
                 System.out.println("해당 여행자가 존재하지 않습니다.");
+                System.out.println("------------");
             }
 
         } catch (SQLException e) {
