@@ -14,10 +14,10 @@ public class AddDestinationMenu {
         Scanner scanner = new Scanner(System.in);
 
         // 사용자로부터 여행지 정보 입력 받기
-        System.out.print("지역을 입력하세요: ");
+        System.out.print("지역(Region)을 입력하세요: ");
         String region = scanner.nextLine().trim();
 
-        System.out.print("도시를 입력하세요: ");
+        System.out.print("도시(City)를 입력하세요: ");
         String city = scanner.nextLine().trim();
 
         System.out.print("관광명소를 입력하세요: ");
