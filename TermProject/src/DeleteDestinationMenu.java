@@ -32,8 +32,10 @@ public class DeleteDestinationMenu {
 
             if (rowsAffected > 0) {
                 System.out.println("여행지가 성공적으로 삭제되었습니다.");
+                System.out.println("------------");
             } else {
                 System.out.println("여행지 삭제에 실패했습니다. 입력된 도시와 지역을 확인하세요.");
+                System.out.println("------------");
             }
         } catch (SQLException e) {
             e.printStackTrace();
