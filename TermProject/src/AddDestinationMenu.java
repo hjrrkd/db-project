@@ -38,10 +38,10 @@ public class AddDestinationMenu {
             int rowsAffected = preparedStatement.executeUpdate();
 
             if (rowsAffected > 0) {
-                System.out.println("여행지가 성공적으로 추가되었습니다.\n");
+                System.out.println("여행지가 성공적으로 추가되었습니다.");
                 System.out.println("------------");
             } else {
-                System.out.println("여행지 추가에 실패했습니다.\n");
+                System.out.println("여행지 추가에 실패했습니다.");
                 System.out.println("------------");
             }
 
