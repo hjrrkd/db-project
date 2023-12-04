@@ -20,7 +20,7 @@ public class AddDestinationMenu {
         System.out.print("도시(City)를 입력하세요: ");
         String city = scanner.nextLine().trim();
 
-        System.out.print("관광명소를 입력하세요: ");
+        System.out.print("관광명소를 입력하세요(여러개는 콤마로 구분): ");
         String attractions = scanner.nextLine().trim();
 
         System.out.print("숙소를 입력하세요: ");
