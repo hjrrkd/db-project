@@ -26,7 +26,7 @@ public class ReservationMenu {
 
         System.out.print("금액을 입력하세요: ");
         int amount = scanner.nextInt();
-        scanner.nextLine(); // 개행 문자 처리
+        scanner.nextLine(); 
 
         // 예약 정보 추가
         try {
