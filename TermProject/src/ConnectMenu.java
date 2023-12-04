@@ -1,5 +1,5 @@
-//1번 DB connect
-//DB와의 연결이 올바르게 이루어졌는지를 확인
+// 1번메뉴: DB connect
+// DB와의 연결이 올바르게 이루어졌는지를 확인
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -18,7 +18,7 @@ public class ConnectMenu {
 
             if (connection != null && !connection.isClosed()) {
                 // 연결이 성공적으로 이루어졌을 때
-                String userName = USER;  // 현재 user 이름 (여기서는 고정값으로 설정)
+                String userName = USER;  // 현재 user 이름
                 String currentTime = getCurrentTime();  // 현재 시각 가져오기
 
                 System.out.println("Connection successful! :)");
