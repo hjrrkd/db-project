@@ -1,6 +1,6 @@
 // 2번메뉴: 여행자의 여행 일정 조회 및 수정
 // Traveler,Destination,Itinerary 테이블을 활용하여 여행 일정을 조회하고 수정
-// 사용자로부터 여행자의 이름 또는 ID를 입력받아 해당 여행자의 여행 일정을 조회하고, 필요에 따라 수정 가능
+// 사용자로부터 여행자의 이름을 입력받아 해당 여행자의 여행 일정을 조회하고, 필요에 따라 수정 가능
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,7 +15,7 @@ public class TravelScheduleMenu {
 
         Scanner scanner = new Scanner(System.in);
 
-        // 사용자로부터 여행자의 이름 또는 ID 입력 받기
+        // 사용자로부터 여행자의 이름 입력받기
         System.out.print("여행자의 이름을 입력하세요: ");
         String travelerName = scanner.nextLine().trim();
 
@@ -48,7 +48,6 @@ public class TravelScheduleMenu {
             String modifyChoice = scanner.nextLine().trim().toUpperCase();
 
             if ("Y".equals(modifyChoice)) {
-                // 여행 일정 수정 로직 추가
                 System.out.println("여행 일정을 수정합니다.");
 
                 // 사용자로부터 수정할 여행 일정 ID 입력 받기
